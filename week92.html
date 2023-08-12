@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="week9.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<!--This is the same navbar on the other page and the code is used to control the navbar background and linkside it that are used and linked to the other pages 
+on this website that i created it also has some control over the background color and opacity of the entire website-->
+<body class="bg-primary bg-opacity-50">
+  <nav class="navbar navbar-expand-lg logo-pic">
+    <div class="container-fluid">
+      <a class="navbar-brand light-text fs-1 fw-bolder ms-auto me-auto" href="#">Your Disney Guide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active  p-1 bg-light light-text tw-bolder border border-dark rounded" aria-current="page" href="week9.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-1 light-text bg-light tw-bolder border border-dark rounded " href="week92.html">Top 5</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--This is the intro to the webpage and it is a heading that i changed the look of as well as some text to explain what the webpage is-->
+  <h2 class="text-center fs-1 fw-bolder">A Look at The Greatest Rides Disney World has to Offer</h2>
+    <p class="text-center fs-3">We are going to take a look at the top ten rides at Disney World and Rank them. We are going to take a look at all the different things that make a ride great like ride time, 
+      thrill factor, special effects, and wait times.
+    </p>
+    <!--This is the start to the table i created to house all the iformation for the rides in it. I put it inside a fluid container so it extends to the sides properly and it i have it
+    with 6 data points one being an image and the rest being information. I also have it to where the rows highlite when you hover over them and that the colors are
+  also alternating for each colomn so in my opinion is it easier to read. I changed the background colors of them as well and put some bold in on the total scores. -->
+      <div class="container-fluid">
+        <table class="table table-responsive table-primary table-hover table-striped-columns">
+          <tr>
+            <th>Ride Image</th>
+            <th>Ride and Location</th>
+            <th>Ride Length</th>
+            <th>Thrill Factor</th>
+            <th>Special Effects</th>
+            <th>Wait Times and Score</th>
+          </tr>
+          <tr>
+            <td><img src="https://www.disneytouristblog.com/wp-content/uploads/2021/04/star-wars-rise-resistance-hollywood-studios-disney-world-652.jpg" width="300"></td>
+            <td>Rise Of The Resistance Located In Hollywood Studios</td>
+            <td>This ride is an unbelievable 28 minutes in total once you hit the pre ride show</td>
+            <td>This is a dark ride so not the most thrilling but it does have its suprise moments that are sure to get a scream</td>
+            <td>The Special Effect are unmatched in this ride. Not only are they amazing and truly awe inspiring but the scale alone of the practical props that are used is something words cannot describe properly.
+            </td>
+            <td> the big downside to this ride is the wait time. It is constantly over 2 hours but once ridden the wait is more then worth it. <b>Total Score 10/10</b></td>
+          </tr>
+          <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3xQ2dD6xx9ZN5y2ru4G-g7ooj6AvXK1gVAw&usqp=CAU" width="300"></td>
+            <td>Guardians Of the Galaxy Cosmic Rewind Located In EPCOT</td>
+            <td>This ride is a short 3 mintues but the ammount of awesome recieved in this short ammount of time is more then enough to make the 3 minutes worth it.</td>
+            <td>Thrill factor on this ride is incredible, between the high speeds the spinning roller coaster car and the psychodelic theme this ride is a sensory overload of awesome.</td>
+            <td>The pre show special effect are one that will make you wonder what just happened. The ride also is stunning like a roller coaster through a detailed space scene in all 360 degrees.
+              it is fast beautiful and an engeneering marvel.
+            </td>
+            <td>The wait times on this ride are high and that is if you can even ride it as it is based on a lottery system. You are not gaurunteed a ride but if you get in the day is worth it. <b>Total Score 9.8/10</b></b></td>
+          </tr>
+          <tr>
+            <td><img src="https://lumiere-a.akamaihd.net/v1/images/columncard-1_21a54f78.jpeg?region=0,0,420,236" width="300"></td>
+            <td>Avatar Flight Of Passage Located In Animal Kingdom</td>
+            <td>This ride is a nice 4 minutes and 24 seconds long.</td>
+            <td>This ride is amazing and the thrill is real. It is different though because its a simulated thrill ride but none the less you feel your stomach sink and it really feels like flying.</td>
+            <td>The specail effects are amazing between the stunning visuals and the incredible smells injected into the air while soaring over the dirt or the ocean this ride really makes you feel like your on a different planet.</td>
+            <td>This wait time is usually the longest in Animal Kingdom and usually at least 2 hours but worth the wait to soar over Pandora on the back of a banshee. <b>Total Score 9/10</b></b></td>
+          </tr>
+          <tr>
+            <td><img src="https://cdn.mos.cms.futurecdn.net/9JPVCq3edqxJFN6kmzfQB3.jpg" width="300"></td>
+            <td>Expidition Everest Located In Animal Kingdom</td>
+            <td>This ride is an ok 3 minutes long.</td>
+            <td>This ride is the poster child for thrilling. It has a couple great launches and the only thing better then a great launch... an even better backwards launch.</td>
+            <td>The special effects are not what make this ride it is the practical effects that do. The sheer scale of the mountain created to make this ride is amazing and stunning and so immersive its like your really being chased by a Yeti through the himmalayas.</td>
+            <td>The wait time is usually 2 hours for this ride but it does drop quite often through the day so if you time it right you can ride this ride with no wait. <b>Total Score 8.5/10</b></td>
+          </tr>
+          <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSABni5JCvehMxu8O1ou5M1d-gdInyYVub-g&usqp=CAU" width="300"></td>
+            <td>Mickey and Minnies Runaway Railway Located In Hollywood Studios.</td>
+            <td>This ride is a fantastic 7 minutes long.</td>
+            <td>While this ride is not the most thrilling if you have a family with younger kids they will disagree. Between going over a waterfall or being in the same room with a tornado it is thrilling enough to make the list.</td>
+            <td>The special effects are what make this ride amazing. So many rooms that before your very eyes completely transform. First a volcano in a jungle then you blink and your in the ocean. This rides special effects are sure to leave you speechless.</td>
+            <td>Wait times for this ride are long as it is a new ride that the whole family can ride so there is a wait however if you pay attention the lines can die down. <b>Total Score 8/10</b></td>
+          </tr>
+          <tr>
+            
+        </table>
+1
+<!--This is just a header with an image and some altered text to create an honorable mention with rides as a little bonus for the website-->
+      </div>
+      <div class="container-fluid text-center">
+        <h3 class="fs-2 fw-bold text-center">Smugglers Run</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5h7TQvaMshCKQ_D8HmrFWro1ZoTFTrtgcsFNino3VgLMKKQZqhoxpja1w9d-kEN6CzFM&usqp=CAU" width="500">
+        <p class="fs-4">Just throwing in an Honorble Mention because its hard to just pick 5 rides out of so many. Not unlike Flight of Passage Smugglers Run is an amazing simulator ride. Whats amazing
+          about this ride is how you get to control, fly, shoot, and fix the ship and you go through hyperspace to different planets on amazing smugglers run in order to perform a heist. 
+          This ride is amazing for fans of star wars as they get to pilot the fastest ship in the galaxy and they get to live their dreams of barraling through space fighting outlaws. <b>Total Score 9/10</b></b>
+        </p>
+      </div>
+
+<!-- This is a form used to get three different things. First is a text input so that you can iput the information for your favorite ride. The second is information on why that
+is your favorite ride. Third thing is a submit button so after putting this data in you can submit it to the webpage. The text was all chnaged in size and weight on all of these 
+and I also changed the button background and changed it again when hovered over.-->
+      <div class="container-fluid text-center">
+        <h1 class="fs-2 fw-bolder">Let us know your favorite ride in Disney World and Why</h1>
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fs-2 fw-bold">Your Favorite Ride</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text fw-bold">Whats your favorite Ride and Where is it Located</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label fs-2 fw-bold">Why is it the Best</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            
+            <label class="form-check-label fw-bold" for="exampleCheck1">What makes the ride so magical to you</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+<!--This is just a horizontal line using hr because i really like the look of it when using a footer-->
+      </div>
+      <hr>
+<!--this is just a footer that displays some bold text in the center of the bottom of the webpage.-->
+      <footer class="text-center fw-bold">Have a Magical Day</footer>
+  
+<!-- thise are src scripts used so that the JS in the bootstrap i used for the nav link and everything work properly-->
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   
+    
+</body>
+</html>

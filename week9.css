@@ -1,0 +1,18 @@
+
+/*This is created to use an image as a background for the navbar instead of just a color and it also adjust size and position of the image */
+.logo-pic {
+    background-image: url(https://myfox8.com/wp-content/uploads/sites/17/2023/03/ac747c4ed9d9461db95f2f13368e267b.jpg);
+    background-size: cover;
+    background-position: center top 20%;
+}
+/* This is to change some text colors in CSS to a color and style i did not have in bootstrap*/
+.light-text {
+    color:rgb(81, 223, 248);
+    text-shadow:.2rem .15rem .1rem rgb(243, 242, 242);
+}
+/* This is also a color change for some text that i used for links in my html page*/
+.link-bg {
+    background-color: aqua;
+    w-25
+    height: 80px;
+}
